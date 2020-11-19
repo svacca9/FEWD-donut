@@ -94,12 +94,21 @@ h2 {
     position: relative;
 }
 
+.box {
+    display: grid;
+    float: right;
+}
+
+.box img {
+    width: 100%;
+}
+
 section {
     display: flex;
     font-size: 1em;
     position: relative;
     text-align: justify;
-    width: 45%;
+    width: 75%;
     margin: 0px 30px 30px 30px;
 }
 
@@ -108,8 +117,10 @@ section {
 }
 
 .s-delivery {
-    flex-flow: row-reverse wrap;
+    display: flex;
+    flex-flow: column wrap;
     justify-content: right;
+    align-items: right;
 }
 
 footer {
