@@ -89,28 +89,25 @@ nav li {
     opacity: 100;
 }
 
-.donut-card {
-    margin-right: 50px;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-evenly;
-    float: right;
-    max-width: 45vw;
-    gap: 50px;
+.img-box {
+    display: grid;
+    margin: 100%;
+    position: right;
 }
 
-.donut-card img {
-    width: 100%;
-    border: 4px solid #cc1335;
-    border-radius: 3px;
+h2 {
+    font-size: 2em;
+    position: relative;
 }
 
 section {
+    display: grid;
     font-size: 1em;
     position: relative;
+    align-content: center;
     text-align: justify;
-    width: 45%;
-    margin: 30px;
+    width: 65%;
+    margin: 0px 30px 30px 30px;
 }
 
 footer {

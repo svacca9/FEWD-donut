@@ -139,6 +139,13 @@ footer {
     flex-wrap: nowrap;
 }
 
+.footer-links a:hover {
+    position: static;
+    padding: 20px;
+    background-color: #ff1642;
+    color: #ffffff;
+}
+
 footer a {
     text-decoration: none;
     color: #ffffff;
